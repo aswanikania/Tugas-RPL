@@ -1,0 +1,55 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package siswa;
+
+/**
+ *
+ * @author INFINIX
+ */
+public class Siswa {
+ String nama;
+ String alamat;
+ int telepon;
+ int kelas;
+  
+ public Siswa() {
+     nama =("Kania");
+     alamat = ("Malang");
+     telepon = 624356;
+     kelas = 10;
+ }
+
+    
+ public void Setnama(String nama){
+     this.nama= nama;
+ }
+ public String getnama(){
+     return nama;
+ }
+ public void Setalamat(String alamat){
+     this.alamat= alamat;
+ }
+ public String getalamat(){
+     return alamat;
+ }
+ public void Settelepon(int telepon){
+     this.telepon= telepon;
+ }
+  public int telpone(){
+      return telepon;
+  }
+  public void Setkelas(int kelas){
+      this.kelas= kelas;
+  }
+  public int kelas(){
+      return kelas;
+  }
+  public void tampil() {
+      System.out.println("Nama : " +nama);
+      System.out.println("Alamat :" +alamat);
+      System.out.println("Telepon :" +telepon);
+      System.out.println("Kelas :" +kelas);
+  }
+}
